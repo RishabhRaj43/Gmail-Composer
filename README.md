@@ -11,7 +11,7 @@ This is a mail-generating website developed using the MERN stack.
 
 ## Note
 
-> **🔔 Note:** This project is under active development. Features and functionality may change.
+> **🔔 Note:** This project is under development. Features and functionality may change.
 
 ----
 
