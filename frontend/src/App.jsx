@@ -1,11 +1,15 @@
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import SendMail from "./components/SendMail";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <button className="btn btn-accent">Accent</button>
-    </div>
+    <>
+      <Toaster />
+      <Routes>
+        <Route path="/" element={<SendMail />} />
+      </Routes>
+    </>
   );
 }
 
