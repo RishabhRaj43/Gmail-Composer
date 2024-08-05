@@ -1,4 +1,4 @@
-# Auto-Mail-Sending
+# Gmail Composer
 
 This is a mail-generating website developed using the MERN stack.
 
