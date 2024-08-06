@@ -71,9 +71,14 @@ This is a mail-generating website developed using the MERN stack.
 - **Send Email**: Send the generated emails to the desired recipients.
 
 ## Screenshots
+***This is the home page***
+<img src = "https://github.com/RishabhRaj43/Gmail-Composer/blob/main/screenshots/home.png" />
 
-![Home Page](link-to-homepage-screenshot.png)
-![Email Composer](link-to-emailcomposer-screenshot.png)
+***This is how you can write the email***
+<img src = "https://github.com/RishabhRaj43/Gmail-Composer/blob/main/screenshots/second.png" />
+
+***The confirmation of email***
+<img src = "https://github.com/RishabhRaj43/Gmail-Composer/blob/main/screenshots/email.png" />
 
 
 
