@@ -31,15 +31,16 @@ const SendMail = () => {
       
       const res = await axios.post("http://localhost:5000/api/send", formData);
 
-      // setFormData({
-      //   ...formData,
-      //   intro: "",
-      //   body: "",
-      //   footer: "",
-      //   subject: "",
-      // });
+      setFormData({
+        ...formData,
+        intro: "",
+        body: "",
+        footer: "",
+        subject: "",
+      });
 
       console.log(res.data);
+      toast.success("Mail Sent Successfully");
     } catch (error) {
       console.log(error.message);
       toast.error(error.message);
