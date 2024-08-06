@@ -38,6 +38,7 @@ const SendMail = () => {
         footer: "",
         subject: "",
       });
+      
 
       console.log(res.data);
       toast.success("Mail Sent Successfully");
